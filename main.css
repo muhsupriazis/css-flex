@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.kotak {
+    width: 100%;
+    background-color: salmon;
+    display: flex;
+    padding: 5px;
+    flex-flow: row wrap;
+    /* justify-content: center;
+    align-items: baseline; */
+    align-content: center;
+}
+.kotak div{
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kotak .satu{
+    height: 30px;
+    order: 2;
+}
+
+.kotak .dua{
+    height: 60px;
+    order: 1;
+}
+
+.kotak .lima{
+    height: 100px;
+}
+.kotak div{
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    background-color: lightgray;
+}
+
+/* 
+display flex
+1. flex-wrap {
+    wrap
+    nowrap
+    wrap-reverse
+}
+2. flex derection{
+    row
+    culom
+    Ccolom reverse
+    row reverse
+}
+3. flex-flow{
+    untuk mengatur nilai direction dan wrap
+}
+4. justify-content{
+    center
+    flex-start
+    flex-end
+    space-roud
+    space-between
+}
+5.align-items{
+    center
+    flex-start
+    flex-end
+    baseline
+    streng
+}
+
+for chill
+1. align-self {
+    center
+    flex-start
+    flex-end
+    space-roud
+    space-between
+}
+3. order {
+    nilainya angka untuk mengatur bobot urutan alement
+}
+4. flex {
+    0 0 200px
+    mengembang , menyusut, lebar awal
+}
+
+
+*/
+
+*{
+    font-family: sans-serif;
+    color: white;
+}
+nav {
+    background-color: salmon;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px
+}
